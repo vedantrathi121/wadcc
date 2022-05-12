@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>JQuery Mobile</title>
+  </head>
+  <body>
+    <div data-role="page" id="page1" data-theme="a">
+      <div data-role="header">
+        <h3>Enrollment Form</h3>
+        <!-- /navbar -->
+      </div>
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <h3>Form Page</h3>
+
+        <label for="text-basic">Name </label>
+        <input type="text" name="name" id="text-basic" value="" />
+
+        <label for="text-basic">Roll No </label>
+        <input type="number" name="roll" id="text-basic" value="" />
+
+        <label for="text-basic">College </label>
+        <input type="text" name="college" id="text-basic" value="" />
+
+        <label for="date">Select Date</label>
+        <input type="date" name="date" id="date" value="" />
+
+        <label for="file">Select File</label>
+        <input type="file" name="file" id="file" value="" />
+      </div>
+      <!-- /content -->
+
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1" data-icon="grid" class="ui-btn-active">Forms</a></li>
+                <li><a href="#page2" data-icon="star" >Resources</a></li>                
+            </ul>
+        </div>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- End of First Page -->
+
+    <!-- Start of second page -->
+    <div data-role="page" id="page2" data-theme="b">
+      <div data-role="header">
+        <h1>Resources</h1>
+      </div>
+      <!-- /header -->
+
+      <br />
+      <br />
+
+      <div role="main" class="ui-content">
+        <p>References For Study</p>
+        <ul data-role="listview">
+          <li>
+            <a href="https://www.geeksforgeeks.org/" target="_blank">GFG</a>
+          </li>
+          <li>
+            <a href="https://www.tutorialspoint.com/index.htm" target="_blank"
+              >Tutorials Point</a
+            >
+          </li>
+          <li>
+            <a href="https://www.javatpoint.com/" target="_blank">Javatpoint</a>
+          </li>
+          <li>
+            <a href="https://www.programiz.com/" target="_blank">Programiz</a>
+          </li>
+        </ul>
+
+        <br />
+        <br />
+<!-- 
+        <iframe
+          width="300"
+          height="400"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+        >
+        </iframe> -->
+        <br />
+        <br />
+
+        <div class="ui-grid-b">
+          <div class="ui-block-a">
+            <div class="ui-bar ui-bar-a" style="height: 60px">
+              Block A
+              </iframe>
+            </div>
+          </div>
+          <div class="ui-block-b">
+            <div class="ui-bar ui-bar-a" style="height: 60px">Block B</div>
+          </div>
+          <div class="ui-block-c">
+            <div class="ui-bar ui-bar-a" style="height: 60px">Block C</div>
+          </div>
+          <div class="ui-block-a">
+            <div class="ui-bar ui-bar-a" style="height: 60px">Block A</div>
+          </div>
+          <div class="ui-block-b">
+            <div class="ui-bar ui-bar-a" style="height: 60px">Block B</div>
+          </div>
+          <div class="ui-block-c">
+            <div class="ui-bar ui-bar-a" style="height: 60px">Block C</div>
+          </div>
+        </div>
+        <!-- /grid-c -->
+      </div>
+      <!-- /content -->
+
+      <br />
+      <br />
+
+      <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#page1" data-icon="grid">Forms</a></li>
+                <li><a href="#page2" data-icon="star" class="ui-btn-active">Resources</a></li>                
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /page -->
+  </body>
+</html>
+
+<!-- https://demos.jquerymobile.com/1.4.5/ -->

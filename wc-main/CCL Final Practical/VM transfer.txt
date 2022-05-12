@@ -1,0 +1,19 @@
+Download .vmdk from https://drive.google.com/drive/u/0/folders/1me_nJJh0fvdDOXX3ew2jzGQpoP7f_iFt
+Click on new and mention the Name and the machine folder along with the Type: Linux and Version: Ubuntu 64-bit of the Machine to be created.
+Select the option Use an existing virtual hard disk file and locate the donwloaded VMDK image below and create VM.
+Now we have to create a NAT Network so go to File -> Preferences -> Network -> Add a New NAT Network (Click on +)
+Now go to the setting of each VM, go to the network setting and change the adapter to NAT Network and and select the NAT Network you made
+Launch both VMs
+
+username: vagrant 
+password: vagrant
+
+vm1:							vm2:
+							ifconfig
+ping <ip of vm2>					
+touch transfer.txt
+nano transfer.txt   ctrl+x, Y, enter
+cat transfer.txt
+scp transfer.txt vagrant@<ip of vm2>:/home/vagrant
+							ls
+							cat transfer.txt

@@ -1,0 +1,5 @@
+https://cloud.google.com/sdk/docs/install
+./install.sh    
+bin/gcloud init
+
+

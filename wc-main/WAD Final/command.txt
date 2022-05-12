@@ -1,0 +1,46 @@
+===================================================
+
+Install Git: 
+sudo apt update
+sudo apt install git
+
+Uninstall Git
+sudo apt-get remove --auto-remove git
+
+Clear logs:
+other location  computer home  <user name> show hidden files 
+open .bash_history 
+scroll till last last ke 2-3 entries are hidden
+
+===================================================
+
+Node
+
+sudo apt install nodejs
+sudo apt install npm
+node --version
+npm -v
+sudo apt update
+sudo apt-get install mongodb
+sudo service mongodb start
+sudo systemctl status mongodb
+
+sudo apt install curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+
+MongoDB
+start service: sudo service MongoDB start
+enter shell : mongo
+show dbs;
+use db/create : use mydb;
+sudo systemctl status mogodb
+
+activate shell >>mongo
+show dbs
+use db_name
+show collections
+
+===================================================
+11w
